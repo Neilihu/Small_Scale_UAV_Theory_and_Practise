@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\Jlktn\OneDrive\Desktop\2025-ece-263-path-following\ece163\Display\vehiclePathWidget.py", line 171, in PathCalculated
+    self.callBack(**parametersDict)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+TypeError: PathFollowing.PathCalcComplete() missing 5 required positional arguments: 'mode', 'oX', 'oY', 'oZ', and 'Dir'

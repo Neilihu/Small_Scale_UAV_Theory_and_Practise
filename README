@@ -1,0 +1,25 @@
+Team member:
+Gowrav Bukkapattana Gururaj(gbukkapa@ucsc.edu)
+Timothy Nguyen(tilonguy@ucsc.edu)
+Neili Hu (nehu@ucsc.edu)
+
+Running Guidance:
+1. cd into 'pathfollowing' directory
+2. Run 'python FinalProject.py'
+2. In the Path Input tab, modify parameters you want to use
+    2.1 Select wether you want to observe the 'straight line' or 'circular path' following modes
+    2.2a Set a proper OriginX, OriginY, OriginZ, and Course for straight line (we use course currently due to GUI reasons but may switch to endpoint)
+    2.2b Set a proper OriginX, OriginY, OriginZ, R, and Direction for circular path
+    2.3 Click Apply Mode
+    2.4 Click Generate Path to show the desiered path
+    2.5 if you want to change wind choose a wind kind and click Apply Winds
+3. Click start to start simulation
+4. While the simulator is running, it is avaliable to change the path
+    4.1 following step 2.2 to modify the path parameters
+        4.1.1 For each parameter, the modification direcly apply to the UAV but not the path
+    4.2 click Generate Path to show the newest path
+    4.3 You can also modify wind. Following the 2.5
+
+Current progress:
+Currently we are able to show the path in the simulator and running circular pathfollowing algorithm.We think we are on the right track.
+One thing that surprised us is that we can modify the path during the simulating without bug. 
